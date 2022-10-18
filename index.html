@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<base href="./">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <script src="assets/js/main.js" defer></script>
+
+    <title>MonSapin</title>
+</head>
+<body>
+    <div class="content">
+        <div class="col">
+            <div onclick="nosProduits()" class="b1 block bHover">
+                <div class="desc"></div>
+            </div>
+            <div onclick="nosProduits()" class="b4 block bHover"></div>
+        </div>
+        <div class="col bAB">
+                <h1>Vente de sapin de Noël</h1>
+                <p>Découvrez notre gamme de produit <br> et qui nous sommes !</p>
+                <ul>
+                    <li onclick="nosProduits()">Nos produits</li>
+                    <li onclick="about()">Qui sommes nous ?</li>
+                    <li onclick="contact()">Contact</li>
+                    <li onclick="ventes()">Point de ventes</li>
+                </ul>
+        </div>
+        <div class="col">
+            <div class="b2 block bHover"></div>
+            <div class="b5 block"></div>
+        </div>
+        <div class="col">
+            <div class="b3 block"></div>
+            <div class="b6 block"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    nosProduits = () =>{
+        window.location.href = "produits.html";
+    };
+    about = () =>{
+        window.location.href = "about.html";
+    };
+    contact = () =>{
+        window.location.href = "contact.html";
+    };
+    ventes = () =>{
+        window.location.href = "ventes.html";
+    };
+</script>
