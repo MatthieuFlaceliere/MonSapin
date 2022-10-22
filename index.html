@@ -22,7 +22,7 @@
         <div class="col bAB">
                 <h1>Vente de sapin de Noël</h1>
                 <p>Découvrez notre gamme de produit <br> et qui nous sommes !</p>
-                <ul>
+                <ul class="menu">
                     <li onclick="nosProduits()">Nos produits</li>
                     <li onclick="about()">Qui sommes nous ?</li>
                     <li onclick="contact()">Contact</li>
@@ -30,11 +30,11 @@
                 </ul>
         </div>
         <div class="col">
-            <div class="b2 block bHover"></div>
-            <div class="b5 block"></div>
+            <div onclick="about()" class="b2 block bHover"></div>
+            <div onclick="nosProduits()" class="b5 block bHover"></div>
         </div>
         <div class="col">
-            <div class="b3 block"></div>
+            <div onclick="nosProduits()" class="b3 block bHover"></div>
             <div class="b6 block"></div>
         </div>
     </div>
